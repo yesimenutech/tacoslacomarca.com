@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tacos La Comarca Lakewood | Taqueria en Lakewood, CO</title>
+  <meta name="description" content="Tacos La Comarca Lakewood - ¡Como La Laguna Ninguna! Disfruta de la mejor taquería en Lakewood, CO. Ordena en línea o visítanos en 7310 W Colfax Ave.">
+  <link rel="canonical" href="https://tacoslacomarca.com/">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tacoslacomarca.com/">
+  <meta property="og:title" content="Tacos La Comarca Lakewood | Taqueria">
+  <meta property="og:description" content="Tacos La Comarca Lakewood - Como La Laguna Ninguna. Ven y disfruta de una experiencia gastronómica única en Lakewood, CO.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/pordentro.webp">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Tacos La Comarca Lakewood | Taqueria">
+  <meta property="twitter:description" content="Tacos La Comarca Lakewood - Como La Laguna Ninguna.">
+  <meta property="twitter:image" content="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/pordentro.webp">
+
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Pirata+One&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Tacos La Comarca Lakewood",
+    "image": "https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/logo.png",
+    "telephony": ["+1-720-877-7017", "+1-983-777-1101"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "7310 W Colfax Ave suit 120",
+      "addressLocality": "Lakewood",
+      "addressRegion": "CO",
+      "postalCode": "80214",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 39.7402,
+      "longitude": -105.0782
+    },
+    "url": "https://tacoslacomarca.onlineordering.io/en/menu",
+    "servesCuisine": "Taqueria",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+        "opens": "09:00",
+        "closes": "23:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Friday", "Saturday"],
+        "opens": "09:00",
+        "closes": "24:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=100083757930009&sk=photos&locale=es_LA",
+      "https://www.instagram.com/tacos.lacomarca.lakewood/"
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --color-brand-green: #0E7A3E;
+      --color-brand-green-hover: #0A5A2D;
+      --color-brand-yellow: #FFC72C;
+      --color-brand-dark-blue: #0A192F;
+      --color-brand-black: #111111;
+      --color-brand-white: #FFFFFF;
+      --color-surface-soft: #F8FAF8;
+      --color-border: #E2E8F0;
+      
+      --font-pirata: 'Pirata One', cursive;
+      --font-oswald: 'Oswald', sans-serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+
+      --transition-base: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --radius-full: 9999px;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--color-brand-white);
+      color: var(--color-brand-black);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    button, input, textarea {
+      font: inherit;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* HEADER & NAV */
+    .site-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      background: rgba(10, 25, 47, 0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      transition: var(--transition-base);
+    }
+
+    .nav-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 88px;
+    }
+
+    .brand-logo img {
+      height: 58px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-link {
+      font-family: var(--font-oswald);
+      color: var(--color-brand-white);
+      font-weight: 700;
+      font-size: 1.1rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      transition: var(--transition-base);
+      position: relative;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -6px;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background-color: var(--color-brand-yellow);
+      transition: var(--transition-base);
+    }
+
+    .nav-link:hover {
+      color: var(--color-brand-yellow);
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      padding: 0.85rem 1.75rem;
+      border-radius: var(--radius-full);
+      font-family: var(--font-oswald);
+      font-weight: 700;
+      font-size: 1.05rem;
+      cursor: pointer;
+      border: none;
+      transition: var(--transition-base);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .btn-primary {
+      background-color: var(--color-brand-yellow);
+      color: var(--color-brand-black);
+      box-shadow: 0 4px 20px rgba(255, 199, 44, 0.3);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 24px rgba(255, 199, 44, 0.45);
+      background-color: #ffd24d;
+    }
+
+    .lang-toggle {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: var(--color-brand-white);
+      padding: 0.5rem 0.85rem;
+      border-radius: var(--radius-full);
+      font-family: var(--font-oswald);
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.95rem;
+      transition: var(--transition-base);
+    }
+
+    .lang-toggle:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      background: none;
+      border: none;
+      color: var(--color-brand-white);
+      cursor: pointer;
+      padding: 0.5rem;
+    }
+
+    /* HERO SECTION CON IMAGEN DE FONDO */
+    .hero {
+      padding-top: 180px;
+      padding-bottom: 120px;
+      background: linear-gradient(to right, rgba(10, 25, 47, 0.88), rgba(10, 25, 47, 0.65)), 
+                  url('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/pordentro.webp') center/cover no-repeat;
+      color: var(--color-brand-white);
+      position: relative;
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero-content {
+      max-width: 800px;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1.25rem;
+      background: rgba(14, 122, 62, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: var(--color-brand-white);
+      border-radius: var(--radius-full);
+      font-family: var(--font-oswald);
+      font-weight: 700;
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .hero-title {
+      font-family: var(--font-pirata);
+      font-size: clamp(3.5rem, 7vw, 5.5rem);
+      line-height: 1;
+      font-weight: 400;
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .hero-slogan {
+      font-family: var(--font-oswald);
+      font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+      color: var(--color-brand-yellow);
+      font-weight: 700;
+      margin-bottom: 2rem;
+      text-transform: lowercase;
+      letter-spacing: 0.04em;
+      text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.6);
+    }
+
+    .hero-cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+    }
+
+    /* BANNER DESTACADO AGUA DE COCO */
+    .promo-section {
+      background-color: var(--color-brand-dark-blue);
+      padding: 4rem 0;
+    }
+
+    .promo-card {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #06101E;
+      border-radius: var(--radius-lg);
+      padding: 1rem;
+      border: 2px solid rgba(255, 199, 44, 0.3);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .promo-image {
+      width: 100%;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+
+    .promo-image img {
+      width: 100%;
+      height: auto;
+      max-height: 550px;
+      object-fit: contain;
+    }
+
+    /* SECCIÓN UNIFICADA: MENÚ & GALERÍA DE PLATILLOS */
+    .unified-menu-section {
+      padding: 6rem 0;
+      background-color: var(--color-surface-soft);
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 3.5rem auto;
+    }
+
+    .section-subtitle {
+      font-family: var(--font-oswald);
+      color: var(--color-brand-green);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-size: 1.1rem;
+      margin-bottom: 0.25rem;
+      display: block;
+    }
+
+    .section-title {
+      font-family: var(--font-pirata);
+      font-size: clamp(2.75rem, 5vw, 4rem);
+      font-weight: 400;
+      line-height: 1.05;
+      text-transform: uppercase;
+      color: var(--color-brand-black);
+      letter-spacing: 0.02em;
+    }
+
+    .unified-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .dish-card {
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      position: relative;
+      background-color: var(--color-brand-white);
+      height: 280px;
+      border: 1px solid var(--color-border);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+      transition: var(--transition-base);
+      cursor: pointer;
+    }
+
+    .dish-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 16px 32px rgba(0,0,0,0.12);
+      border-color: var(--color-brand-green);
+    }
+
+    .dish-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: var(--transition-base);
+    }
+
+    .dish-card:hover img {
+      transform: scale(1.06);
+    }
+
+    /* UBICACIÓN E INFORMACIÓN */
+    .info-section {
+      padding: 6rem 0;
+      background-color: var(--color-brand-white);
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 3rem;
+    }
+
+    .info-card {
+      background: var(--color-surface-soft);
+      padding: 2.5rem;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--color-border);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+    }
+
+    .info-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .info-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .info-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: var(--color-brand-green);
+      color: var(--color-brand-white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .info-icon svg {
+      width: 26px;
+      height: 26px;
+      fill: currentColor;
+    }
+
+    .info-detail h4 {
+      font-family: var(--font-oswald);
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+      color: var(--color-brand-black);
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+
+    .info-detail p, .info-detail a {
+      color: #475569;
+      font-size: 1rem;
+    }
+
+    .map-container {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      height: 100%;
+      min-height: 420px;
+      border: 1px solid var(--color-border);
+    }
+
+    .map-container iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* FOOTER */
+    .site-footer {
+      background-color: var(--color-brand-dark-blue);
+      color: var(--color-brand-white);
+      padding-top: 5rem;
+      padding-bottom: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 4rem;
+    }
+
+    .footer-brand img {
+      height: 65px;
+      margin-bottom: 1.25rem;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .social-btn {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--color-brand-white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition-base);
+    }
+
+    .social-btn:hover {
+      background: var(--color-brand-yellow);
+      color: var(--color-brand-black);
+      transform: translateY(-3px);
+    }
+
+    .social-btn svg {
+      width: 22px;
+      height: 22px;
+      fill: currentColor;
+    }
+
+    .footer-title {
+      font-family: var(--font-oswald);
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+      color: var(--color-brand-yellow);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .footer-links a {
+      color: #94A3B8;
+      transition: var(--transition-base);
+    }
+
+    .footer-links a:hover {
+      color: var(--color-brand-white);
+    }
+
+    .footer-bottom {
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      text-align: center;
+      font-size: 0.9rem;
+      color: #94A3B8;
+    }
+
+    .footer-bottom a {
+      color: var(--color-brand-yellow);
+      font-weight: 700;
+    }
+
+    .footer-bottom a:hover {
+      text-decoration: underline;
+    }
+
+    /* LIGHTBOX MODAL */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(10, 25, 47, 0.92);
+      z-index: 2000;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      backdrop-filter: blur(8px);
+    }
+
+    .modal.active {
+      display: flex;
+    }
+
+    .modal-content {
+      max-width: 900px;
+      max-height: 85vh;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .modal-content img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: var(--color-brand-yellow);
+      color: var(--color-brand-black);
+      border: none;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 992px) {
+      .hero {
+        padding-top: 150px;
+        text-align: center;
+      }
+
+      .hero-content {
+        margin: 0 auto;
+      }
+
+      .hero-cta-group {
+        justify-content: center;
+      }
+
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .mobile-menu-btn {
+        display: block;
+      }
+
+      .nav-menu {
+        position: fixed;
+        top: 88px;
+        left: 0;
+        width: 100%;
+        background: var(--color-brand-dark-blue);
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        transform: translateY(-150%);
+        transition: var(--transition-base);
+      }
+
+      .nav-menu.active {
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 640px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .header-actions .btn {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#" class="brand-logo" aria-label="Tacos La Comarca Home">
+        <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/logo.png" alt="Tacos La Comarca Logo">
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#inicio" class="nav-link" data-i18n="nav_home">Inicio</a></li>
+          <li><a href="#menu" class="nav-link" data-i18n="nav_menu">Menú y Galería</a></li>
+          <li><a href="#ubicacion" class="nav-link" data-i18n="nav_location">Ubicación</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Cambiar idioma">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+          <span id="langLabel">EN</span>
+        </button>
+
+        <a href="https://tacoslacomarca.onlineordering.io/en/menu" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="btn_order">
+          Ordenar en Línea
+        </a>
+
+        <button class="mobile-menu-btn" id="mobileBtn" aria-label="Abrir menú">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="inicio">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge" data-i18n="hero_badge">Lakewood, Colorado</div>
+        <h1 class="hero-title">Tacos La Comarca</h1>
+        <p class="hero-slogan">como la laguna ninguna</p>
+        <div class="hero-cta-group">
+          <a href="https://tacoslacomarca.onlineordering.io/en/menu" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="btn_order_now">
+            Ordena en Línea
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN PROMOCIONAL (AGUA DE COCO - SOLO IMAGEN) -->
+  <section class="promo-section">
+    <div class="container">
+      <div class="promo-card">
+        <div class="promo-image">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/oferta.jpg" alt="Especial Promocional">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN UNIFICADA: MENÚ Y GALERÍA DE PLATILLOS -->
+  <section class="unified-menu-section" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle" data-i18n="menu_subtitle">Sabores Auténticos</span>
+        <h2 class="section-title" data-i18n="menu_title">Nuestro Menú y Galería</h2>
+      </div>
+
+      <div class="unified-grid">
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish1.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish1.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish2.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish2.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish3.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish3.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish4.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish4.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish5.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish5.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish6.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish6.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish7.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish7.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish8.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish8.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish9.png')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish9.png" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish10.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish10.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish11.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish11.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish12.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish12.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish13.png')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish13.png" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish14.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish14.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish15.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish15.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish16.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish16.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish17.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish17.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish18.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish18.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish19.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish19.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish20.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish20.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish21.png')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish21.png" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish22.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish22.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish23.png')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish23.png" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish24.png')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish24.png" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish25.png')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish25.png" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish26.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish26.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish27.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/dish27.jpg" alt="Platillo">
+        </div>
+        <div class="dish-card" onclick="openModal('https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/sabritas.jpg')">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/sabritas.jpg" alt="Botanas">
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 3.5rem;">
+        <a href="https://tacoslacomarca.onlineordering.io/en/menu" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="btn_full_menu">
+          Ver Menú Completo y Ordenar
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- INFORMACIÓN Y UBICACIÓN -->
+  <section class="info-section" id="ubicacion">
+    <div class="container info-grid">
+      <div class="info-card">
+        <div class="info-item">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          </div>
+          <div class="info-detail">
+            <h4 data-i18n="info_address_title">Dirección</h4>
+            <p>7310 W Colfax Ave suit 120, Lakewood, CO 80214</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+          </div>
+          <div class="info-detail">
+            <h4 data-i18n="info_hours_title">Horarios de Apertura</h4>
+            <p><strong data-i18n="hours_mon_thu">Lunes - Jueves:</strong> 9:00 am - 11:00 pm</p>
+            <p><strong data-i18n="hours_fri_sat">Viernes - Sábado:</strong> 9:00 am - 12:00 am</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          </div>
+          <div class="info-detail">
+            <h4 data-i18n="info_phone_title">Teléfonos de Contacto</h4>
+            <p><a href="tel:7208777017">720-877-7017</a></p>
+            <p><a href="tel:9837771101">983-777-1101</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.8016200253754!2d-105.0782!3d39.7402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b882355555555%3A0x1234567890abcdef!2s7310%20W%20Colfax%20Ave%20%23120%2C%20Lakewood%2C%20CO%2080214!5e0!3m2!1ses!2sus!4v1600000000000!5m2!1ses!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="https://raw.githubusercontent.com/yesimenutech/tacoslacomarca.com/main/img/logo.png" alt="Tacos La Comarca">
+          <p style="color: #94A3B8; font-style: italic; font-size: 1.1rem;">como la laguna ninguna</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100083757930009&sk=photos&locale=es_LA" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+              <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/tacos.lacomarca.lakewood/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+              <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title" data-i18n="footer_nav_title">Navegación</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio" data-i18n="nav_home">Inicio</a></li>
+            <li><a href="#menu" data-i18n="nav_menu">Menú y Galería</a></li>
+            <li><a href="#ubicacion" data-i18n="nav_location">Ubicación</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title" data-i18n="footer_contact_title">Contacto</h4>
+          <ul class="footer-links">
+            <li>7310 W Colfax Ave suit 120, Lakewood, CO 80214</li>
+            <li>720-877-7017</li>
+            <li>983-777-1101</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title" data-i18n="footer_hours_title">Horarios</h4>
+          <ul class="footer-links">
+            <li><strong data-i18n="hours_mon_thu">Lun - Jue:</strong> 9:00am - 11:00pm</li>
+            <li><strong data-i18n="hours_fri_sat">Vie - Sáb:</strong> 9:00am - 12:00am</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span id="copyright"></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL FOR GALLERY -->
+  <div class="modal" id="imageModal" onclick="closeModal()">
+    <button class="modal-close" onclick="closeModal()">&times;</button>
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <img src="" id="modalImg" alt="Vista Ampliada">
+    </div>
+  </div>
+
+  <script>
+    // DYNAMIC COPYRIGHT FOOTER SCRIPT
+    document.addEventListener("DOMContentLoaded", function() {
+      const currentYear = new Date().getFullYear();
+      const copyrightContainer = document.getElementById("copyright");
+      copyrightContainer.innerHTML = `&copy; 2015 - ${currentYear} Powered by <a href="https://menutech.xyz" target="_blank" rel="noopener noreferrer">Menutech</a>`;
+    });
+
+    // TRANSLATIONS DATA
+    const translations = {
+      es: {
+        nav_home: "Inicio",
+        nav_menu: "Menú y Galería",
+        nav_location: "Ubicación",
+        btn_order: "Ordenar en Línea",
+        hero_badge: "Lakewood, Colorado",
+        btn_order_now: "Ordena en Línea",
+        menu_subtitle: "Sabores Auténticos",
+        menu_title: "Nuestro Menú y Galería",
+        btn_full_menu: "Ver Menú Completo y Ordenar",
+        info_address_title: "Dirección",
+        info_hours_title: "Horarios de Apertura",
+        hours_mon_thu: "Lunes - Jueves:",
+        hours_fri_sat: "Viernes - Sábado:",
+        info_phone_title: "Teléfonos de Contacto",
+        footer_nav_title: "Navegación",
+        footer_contact_title: "Contacto",
+        footer_hours_title: "Horarios"
+      },
+      en: {
+        nav_home: "Home",
+        nav_menu: "Menu & Gallery",
+        nav_location: "Location",
+        btn_order: "Order Online",
+        hero_badge: "Lakewood, Colorado",
+        btn_order_now: "Order Online Now",
+        menu_subtitle: "Authentic Flavors",
+        menu_title: "Our Menu & Gallery",
+        btn_full_menu: "View Full Menu & Order",
+        info_address_title: "Address",
+        info_hours_title: "Opening Hours",
+        hours_mon_thu: "Monday - Thursday:",
+        hours_fri_sat: "Friday - Saturday:",
+        info_phone_title: "Contact Phone",
+        footer_nav_title: "Navigation",
+        footer_contact_title: "Contact Us",
+        footer_hours_title: "Hours"
+      }
+    };
+
+    let currentLang = 'es';
+
+    document.getElementById('langToggle').addEventListener('click', function() {
+      currentLang = currentLang === 'es' ? 'en' : 'es';
+      document.getElementById('langLabel').textContent = currentLang === 'es' ? 'EN' : 'ES';
+      
+      document.querySelectorAll('[data-i18n]').forEach(element => {
+        const key = element.getAttribute('data-i18n');
+        if (translations[currentLang][key]) {
+          element.textContent = translations[currentLang][key];
+        }
+      });
+    });
+
+    // MOBILE MENU
+    const mobileBtn = document.getElementById('mobileBtn');
+    const navMenu = document.getElementById('navMenu');
+
+    mobileBtn.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+      });
+    });
+
+    // MODAL LIGHTBOX
+    function openModal(src) {
+      document.getElementById('modalImg').src = src;
+      document.getElementById('imageModal').classList.add('active');
+    }
+
+    function closeModal() {
+      document.getElementById('imageModal').classList.remove('active');
+    }
+  </script>
+</body>
+</html>
